@@ -3,3 +3,16 @@ body{
 	background-position:center top;
 	background-repeat:no-repeat;	
 }
+
+div{
+	outline:1px red solid;
+}
+
+.container{
+	min-height:700px;
+	padding-top:10px;
+}
+
+.header{
+	min-height:150px;
+}
