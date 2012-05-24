@@ -3,10 +3,6 @@ body{
 	background-position:center top;
 }
 
-div{
-	outline:1px red solid;
-}
-
 .container{
 	min-height:700px;
 	padding-top:10px;
@@ -70,13 +66,14 @@ div{
 	z-index:99;
 	background-repeat:no-repeat;
 	background-position:center top;
+	cursor:pointer;
 }
 
 .content .home{
 	min-height:31px !important;
 	width:31px !important;
-	top:200px;
-	left:-30px;
+	top:210px;
+	left:-18px;
 	background-image:url(images/back-button.png);
 }
 
@@ -107,6 +104,7 @@ div{
 
 .content .pic{
 	position:static !important;
+	cursor:auto !important;
 	width:300px;
 	height:300px;
 	-webkit-border-radius:150px;
@@ -117,7 +115,7 @@ div{
 .footer-container{
 	min-height:48px;
 	outline-color:green;
-	background-color:#333;
+	background-image:url(images/background-footer.png);
 }
 
 .footer{
@@ -132,4 +130,33 @@ div{
 .footer .social{
 	min-height:inherit;
 	outline-color:blue;
+}
+
+.footer .social > div{
+	cursor:pointer;
+	height:35px;
+	background-repeat:no-repeat;
+	background-position:center top;	
+}
+
+/*.social .twitter:after{
+	background-image:url(images/page-1-img-2.png);		
+}
+*/
+.social .twitter{
+	width:35px;
+	background-image:url(images/social-button-1.png);
+}
+
+.social .plus{
+	width:35px;
+	background-image:url(images/social-button-3.png);
+
+}
+
+.social .facebook{
+	height:35px;
+	margin-left:40px;
+	margin-right:40px;
+	background-image:url(images/social-button-2.png);
 }
