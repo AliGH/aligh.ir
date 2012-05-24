@@ -14,8 +14,7 @@ div{
 }
 
 .header{
-	min-height:150px;
-	width:240px;
+	min-height:100px;
 }
 
 .logo{
@@ -26,12 +25,23 @@ div{
 	background-size:100% 100%;
 }
 
+.logo-text{
+	outline-color:green;
+}
+
 .logo-text h1{
-	font: 60px "Fredericka the Great", sans-serif
+	font-size: 48px; 
+	font-family:"Fredericka the Great", sans-serif;
+	font-variant:small-caps;
+	text-align:center;
+	color:#DDD;
 }
 
 .logo-text p{
-	font-family: 'Fredericka the Great';
+	font-family:"Comic Sans MS", cursive;
+	text-align:center;
+	font-size:14px;
+	color:#777;
 }
 
 
