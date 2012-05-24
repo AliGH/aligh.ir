@@ -28,7 +28,7 @@ li{
 }
 
 .content-container{
-	min-height:500px;
+	min-height:560px;
 	margin-top:50px;
 	padding-top:1px;
 }
@@ -89,4 +89,24 @@ li{
 	height:300px;
 	-webkit-border-radius:150px;
 	margin-top:80px;
+}
+
+.footer-container{
+	min-height:48px;
+	outline-color:green;
+	background-color:#333;
+}
+
+.footer{
+	width:1000px;
+	min-height:48px;
+}
+
+.footer .copy-right{
+	min-height:inherit;
+}
+
+.footer .social{
+	min-height:inherit;
+	outline-color:blue;
 }
