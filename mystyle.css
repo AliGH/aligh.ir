@@ -30,7 +30,7 @@ body{
 	font-family:"Fredericka the Great", sans-serif;
 	font-variant:small-caps;
 	text-align:center;
-	color:#DDD;
+	color:#EEE;
 }
 
 .logo-text p{
@@ -121,10 +121,12 @@ body{
 .footer{
 	width:1000px;
 	min-height:48px;
+	padding-top:5px;
 }
 
 .footer .copy-right{
 	min-height:inherit;
+	
 }
 
 .footer .social{
