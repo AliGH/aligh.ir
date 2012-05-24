@@ -21,11 +21,19 @@ div{
 .logo{
 	height:66px;
 	width:81px;
+	background-image:url(images/logo.png);
+	background-repeat:no-repeat;
+	background-size:100% 100%;
 }
 
-.logo-h1{
-	
+.logo-text h1{
+	font: 60px "Fredericka the Great", sans-serif
 }
+
+.logo-text p{
+	font-family: 'Fredericka the Great';
+}
+
 
 .content-container{
 	min-height:560px;
