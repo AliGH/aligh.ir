@@ -1,21 +1,11 @@
 body{
-	background-image:url(images/back.png);
+	background-image:url(images/background-pattern.png);
 	background-position:center top;
-	background-repeat:no-repeat;	
 }
 
 div{
 	outline:1px red solid;
 }
-
-ul{
-	outline:1px green solid;
-}
-
-li{
-	outline:1px blue solid;
-}
-
 
 .container{
 	min-height:700px;
@@ -25,6 +15,16 @@ li{
 
 .header{
 	min-height:150px;
+	width:240px;
+}
+
+.logo{
+	height:66px;
+	width:81px;
+}
+
+.logo-h1{
+	
 }
 
 .content-container{
