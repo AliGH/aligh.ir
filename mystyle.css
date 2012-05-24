@@ -8,11 +8,81 @@ div{
 	outline:1px red solid;
 }
 
+ul{
+	outline:1px green solid;
+}
+
+li{
+	outline:1px blue solid;
+}
+
+
 .container{
 	min-height:700px;
 	padding-top:10px;
+	width:1000px;
 }
 
 .header{
 	min-height:150px;
+}
+
+.content-container{
+	min-height:500px;
+	margin-top:50px;
+	padding-top:1px;
+}
+
+.content{
+	outline:none !important;
+	margin-top:10px;
+	height:460px;
+	width:470px;
+	border:3px dashed red;
+	-webkit-border-radius:240px;
+	position:relative;
+}
+
+.content ul{
+	list-style-type:none;
+	position:absolute;
+}
+
+.content > div{
+	min-height:59px;
+	width:59px;
+	background-color:#FF9393;
+	opacity:.7;
+	-webkit-border-radius:35px;
+	position:absolute;
+	z-index:99
+}
+
+.content .home{
+	top:200px;
+	left:-30px;
+
+}
+
+.content .about{
+	top:80px;
+	left:5px;
+}
+
+.content .contact{
+	bottom:80px;
+	left:5px;
+}
+
+
+.content .service{
+	top:80px;
+	right:5px;
+
+}
+
+.content .work{
+	bottom:80px;
+	right:5px;
+
 }
