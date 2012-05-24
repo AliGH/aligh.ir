@@ -56,7 +56,7 @@ div{
 	margin-top:10px;
 	height:460px;
 	width:470px;
-	border:3px dashed red;
+	border:2px dashed #3B3B3B;
 	-webkit-border-radius:240px;
 	position:relative;
 	padding-top:1px;
@@ -65,40 +65,44 @@ div{
 .content > div{
 	min-height:59px;
 	width:59px;
-	background-color:#FF9393;
-	opacity:.7;
 	-webkit-border-radius:35px;
 	position:absolute;
-	z-index:99
+	z-index:99;
+	background-repeat:no-repeat;
+	background-position:center top;
 }
 
 .content .home{
+	min-height:31px !important;
+	width:31px !important;
 	top:200px;
 	left:-30px;
-
+	background-image:url(images/back-button.png);
 }
 
 .content .about{
 	top:80px;
 	left:5px;
+	background-image:url(images/menu-button-0.png);
 }
 
 .content .contact{
 	bottom:80px;
 	left:5px;
+	background-image:url(images/menu-button-3.png);
 }
 
 
 .content .service{
 	top:80px;
 	right:5px;
-
+	background-image:url(images/menu-button-2.png);
 }
 
 .content .work{
 	bottom:80px;
 	right:5px;
-
+	background-image:url(images/menu-button-1.png);
 }
 
 .content .pic{
@@ -107,6 +111,7 @@ div{
 	height:300px;
 	-webkit-border-radius:150px;
 	margin-top:80px;
+	background-color:#FFCACA;
 }
 
 .footer-container{
