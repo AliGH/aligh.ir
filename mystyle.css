@@ -4,7 +4,7 @@ body{
 }
 
 div{
-	outline:1px red solid;
+	/*outline:1px red solid;*/
 }
 
 .container{
@@ -50,7 +50,7 @@ div{
 	margin-top:50px;
 	padding-top:1px;
 	position:relative;
-	/*overflow:hidden;*/
+	overflow:hidden;
 }
 
 .content-container .about-page,.contact-page,.service-page,.work-page{
@@ -58,7 +58,6 @@ div{
 	height:604px;
 	width:604px;
 	-webkit-border-radius:302px;
-	border:dotted blue 2px;
 	right:-720px;
 	z-index:20;
 }
