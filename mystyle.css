@@ -57,7 +57,11 @@ div{
 	position:absolute;
 	height:604px;
 	width:604px;
+	border-radius:302px;
 	-webkit-border-radius:302px;
+	-moz-border-radius:302px;
+	-o-border-radius:302px;
+	-ms-border-radius:302px;
 	right:-720px;
 	z-index:20;
 }
@@ -84,7 +88,11 @@ div{
 	height:460px;
 	width:470px;
 	border:2px dashed #3B3B3B;
+	border-radius:240px;
 	-webkit-border-radius:240px;
+	-moz-border-radius:240px;
+	-o-border-radius:240px;
+	-ms-border-radius:240px;
 	position:relative;
 	padding-top:1px;
 }
@@ -92,7 +100,11 @@ div{
 .content > div{
 	min-height:59px;
 	width:59px;
+	border-radius:35px;
 	-webkit-border-radius:35px;
+	-moz-border-radius:35px;
+	-o-border-radius:35px;
+	-ms-border-radius:35px;
 	position:absolute;
 	z-index:10;
 	background-repeat:no-repeat;
@@ -139,7 +151,11 @@ div{
 	cursor:auto !important;
 	width:300px;
 	height:300px;
+	border-radius:150px;
 	-webkit-border-radius:150px;
+	-moz-border-radius:150px;
+	-o-border-radius:150px;
+	-ms-border-radius:150px;
 	margin-top:80px;
 	background-color:#FFCACA;
 }

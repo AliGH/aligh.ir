@@ -56,8 +56,8 @@ $(function(){
 		$('.about-page').animate({'right':'-720px'},1000,(1,.03,1,.16));
 		
 		$('.content').css('margin-left','auto');
-		$('.work').animate({'left':'410px','bottom':'75px'},600);
-		$('.service').animate({'left':'410px','top':'75px'},600);
+		$('.work').animate({'left':'405px','bottom':'70px'},600);
+		$('.service').animate({'left':'405px','top':'70px'},600);
 		$('.home').css('display','none');
 	});
 
