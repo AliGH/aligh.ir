@@ -3,6 +3,10 @@ body{
 	background-position:center top;
 }
 
+div{
+	outline:1px red solid;
+}
+
 .container{
 	min-height:700px;
 	padding-top:10px;
@@ -42,20 +46,33 @@ body{
 
 
 .content-container{
-	min-height:560px;
+	min-height:610px;
 	margin-top:50px;
 	padding-top:1px;
+	position:relative;
+	/*overflow:hidden;*/
+}
+
+.content-container .about-page,.contact-page,.service-page,.work-page{
+	position:absolute;
+	height:604px;
+	width:604px;
+	-webkit-border-radius:302px;
+	border:dotted blue 2px;
+	right:120px;
+	z-index:20;
 }
 
 .content{
 	outline:none !important;
-	margin-top:10px;
+	margin-top:100px;
 	height:460px;
 	width:470px;
 	border:2px dashed #3B3B3B;
 	-webkit-border-radius:240px;
 	position:relative;
 	padding-top:1px;
+	margin-left:20px;
 }
 
 .content > div{
@@ -63,7 +80,7 @@ body{
 	width:59px;
 	-webkit-border-radius:35px;
 	position:absolute;
-	z-index:99;
+	z-index:10;
 	background-repeat:no-repeat;
 	background-position:center top;
 	cursor:pointer;
