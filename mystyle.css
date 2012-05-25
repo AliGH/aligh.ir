@@ -59,8 +59,24 @@ div{
 	width:604px;
 	-webkit-border-radius:302px;
 	border:dotted blue 2px;
-	right:120px;
+	right:-720px;
 	z-index:20;
+}
+
+.content-container .about-page{
+	background-color:#060;
+}
+
+.content-container .contact-page{
+	background-color:#30C;
+}
+
+.content-container .service-page{
+	background-color:blue;
+}
+
+.content-container .work-page{
+	background-color:darkmagenta;
 }
 
 .content{
@@ -72,7 +88,6 @@ div{
 	-webkit-border-radius:240px;
 	position:relative;
 	padding-top:1px;
-	margin-left:20px;
 }
 
 .content > div{
