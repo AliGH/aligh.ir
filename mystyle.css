@@ -80,7 +80,7 @@ div{
 
 .content{
 	outline:none !important;
-	margin-top:100px;
+	margin-top:50px;
 	height:460px;
 	width:470px;
 	border:2px dashed #3B3B3B;
@@ -106,6 +106,7 @@ div{
 	top:210px;
 	left:-18px;
 	background-image:url(images/back-button.png);
+	display:none;
 }
 
 .content .about{
