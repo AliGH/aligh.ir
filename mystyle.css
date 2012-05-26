@@ -127,6 +127,12 @@ div{
 	top:80px;
 	left:5px;
 	background-image:url(images/menu-button-0.png);
+	-webkit-transition:all 150ms ease-in;
+}
+
+.content .about:hover{
+	-webkit-transform:scale(.65,.65);
+	-webkit-transition:all 250ms cubic-bezier(.05,.92,.74,.4);
 }
 
 .content .contact{
