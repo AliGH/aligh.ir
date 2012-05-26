@@ -1,15 +1,14 @@
 $(function(){
 	
 	$('.about').click(function(){
-		//$('.content').animate({'margin-left':'15px'},800);why the animate is not working????????
 		$('.about-page').animate({'right':'150px'},800,'cubic-bezier(.27,.82,.6,.42)');
-		$('.contact-page').animate({'right':'-720px'},800,'cubic-bezier(.27,.82,.6,.42)');//cubic is not working in any parts :(((((
+		$('.contact-page').animate({'right':'-720px'},800,'cubic-bezier(.27,.82,.6,.42)');
 		$('.service-page').animate({'right':'-720px'},800,'cubic-bezier(.27,.82,.6,.42)');
 		$('.work-page').animate({'right':'-720px'},800,'cubic-bezier(.27,.82,.6,.42)');
 		
 		$('.work').animate({'bottom':'-20px','left':'155px'},500);
 		$('.service').animate({'top':'-20px','left':'155px'},500);
-		$('.content').css('margin-left','15px');
+		$('.content').animate({'margin-left':'15px'},600);
 		$('.home').css('display','block');
 	});
 	
@@ -21,7 +20,7 @@ $(function(){
 		
 		$('.work').animate({'bottom':'-20px','left':'155px'},500);
 		$('.service').animate({'top':'-20px','left':'155px'},500);
-		$('.content').css('margin-left','15px');
+		$('.content').animate({'margin-left':'15px'},600);
 		$('.home').css('display','block');
 	});
 	
@@ -33,7 +32,7 @@ $(function(){
 		
 		$('.work').animate({'bottom':'-20px','left':'155px'},500);
 		$('.service').animate({'top':'-20px','left':'155px'},500);
-		$('.content').css('margin-left','15px');
+		$('.content').animate({'margin-left':'15px'},600);
 		$('.home').css('display','block');
 	});
 
@@ -45,7 +44,7 @@ $(function(){
 		
 		$('.work').animate({'bottom':'-20px','left':'155px'},500);
 		$('.service').animate({'top':'-20px','left':'155px'},500);
-		$('.content').css('margin-left','15px');
+		$('.content').animate({'margin-left':'15px'},600);
 		$('.home').css('display','block');
 	});
 
@@ -55,7 +54,7 @@ $(function(){
 		$('.service-page').animate({'right':'-720px'},800,'cubic-bezier(.27,.82,.6,.42)');
 		$('.about-page').animate({'right':'-720px'},800,'cubic-bezier(.27,.82,.6,.42)');
 		
-		$('.content').css('margin-left','auto');
+		$('.content').animate({'margin-left':'250px'},600);
 		$('.work').animate({'left':'405px','bottom':'70px'},600);
 		$('.service').animate({'left':'405px','top':'70px'},600);
 		$('.home').css('display','none');

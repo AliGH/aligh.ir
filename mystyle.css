@@ -85,6 +85,8 @@ div{
 .content{
 	outline:none !important;
 	margin-top:50px;
+	margin-left:250px;
+	margin-right:250px;
 	height:460px;
 	width:470px;
 	border:2px dashed #3B3B3B;
