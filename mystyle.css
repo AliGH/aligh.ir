@@ -190,6 +190,48 @@ div{
 	-ms-transform:scale(1,1);
 }
 
+.content > div > div{
+	border:1px dashed;
+	height:0px;
+	width:0px;
+	position:absolute;
+	top:28px;
+	right:0;
+	left:28px;
+	bottom:0;
+	border-radius:50%;
+	-webkit-transition:all 400ms cubic-bezier(.05,.92,.74,.4);
+	z-index:-15;
+}
+
+.content > div > .about-ci{
+	border-color:#9B9B00;
+}
+
+.content > div > .contact-ci{
+	border-color:#004000;
+}
+
+.content > div > .service-ci{
+	border-color:#00D5D5;
+}
+
+.content > div > .work-ci{
+	border-color:red;
+}
+
+
+.content > div:hover >div{
+	height:100px;
+	width:100px;
+	display:block;
+	-webkit-transition:all 400ms cubic-bezier(.05,.92,.74,.4);
+	top:-20px;
+	right:0;
+	left:-20px;
+	bottom:0;border:2px #808080 dashed;
+}
+
 .footer-container{
 	min-height:48px;
 	outline-color:green;
