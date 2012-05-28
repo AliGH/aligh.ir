@@ -97,6 +97,7 @@ div{
 	-ms-border-radius:240px;
 	position:relative;
 	padding-top:1px;
+	
 }
 
 .content > div{
@@ -254,14 +255,14 @@ div{
 	outline-color:blue;
 }
 
-.footer .social > div{
+.footer .social > a div{
 	cursor:pointer;
 	height:35px;
 	background-repeat:no-repeat;
 	background-position:center top;
 }
 
-.footer .social > div:active{
+.footer .social > a div:active{
 	background-position:center bottom;
 }
 
