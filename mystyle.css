@@ -205,7 +205,7 @@ div{
 }
 
 .content > div > .about-ci{
-	border-color:#9B9B00;
+	border-color:rgb(206,85,0);
 }
 
 .content > div > .contact-ci{
@@ -213,11 +213,11 @@ div{
 }
 
 .content > div > .service-ci{
-	border-color:#00D5D5;
+	border-color:rgb(31,140,172);
 }
 
 .content > div > .work-ci{
-	border-color:red;
+	border-color:rgb(204,4,4);
 }
 
 
