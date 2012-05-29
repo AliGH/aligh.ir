@@ -68,7 +68,6 @@ div{
 
 .content-container .about-page{
 	background-image:url(images/contact-back.gif);
-	right:0;
 	line-height:200%;
 }
 
@@ -165,7 +164,6 @@ div{
 	border:1px solid #900;
 	color:#900;
 }
-
 
 .content-container .service-page{
 	background-color:blue;
