@@ -71,8 +71,76 @@ div{
 }
 
 .content-container .contact-page{
-	background-color:#30C;
+	background-color: #313131;
+	background-image:url(images/contact-back.gif);
 }
+
+.contact-page h1{
+	font-family:"Fredericka the Great", sans-serif;
+	font-size:24px;
+	color:#DDD;
+	text-align:center;
+	margin-top:20px;
+}
+
+.contact-page form{
+	margin-top:80px; 
+}
+
+.contact-page input[type=text]{
+	background-color:#161616;
+	border:1px solid #2B2B2B;
+	padding:5px;
+	width:308px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:15px;
+	display:block;
+	-webkit-transition:all ease-out 500ms;
+}
+
+.contact-page input[type=submit]{
+	background-color:#161616;
+	border:1px solid #2B2B2B;
+	padding:5px;
+	width:108px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:25px;
+	display:block;
+	-webkit-transition:all ease-out 500ms;
+}
+
+
+.contact-page textarea{
+	background-color:#161616;
+	border:1px solid #2B2B2B;
+	resize:none;
+	margin-left:142px;
+	margin-top:20px;
+	-webkit-transition:all ease-out 500ms;
+}
+
+.contact-page input[type=text].ok{
+	border-color: #008400;
+	color:#008400;
+}
+
+.contact-page input[type=text].nok{
+	border:1px solid #900;
+	color:#900;
+}
+
+.contact-page textarea.ok{
+	border-color: #008400;
+	color:#008400;
+}
+
+.contact-page textarea.nok{
+	border:1px solid #900;
+	color:#900;
+}
+
 
 .content-container .service-page{
 	background-color:blue;
