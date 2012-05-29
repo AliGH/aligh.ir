@@ -9,7 +9,8 @@ $(function(){
 		$('.work').animate({'bottom':'-20px','left':'155px'},500);
 		$('.service').animate({'top':'-20px','left':'155px'},500);
 		$('.content').animate({'margin-left':'15px'},600);
-		$('.home').css('display','block');
+		$('.home').animate({'opacity':'1'},400);
+		$('.home').css('cursor','pointer');
 	});
 	
 		$('.contact').click(function(){
@@ -21,7 +22,8 @@ $(function(){
 		$('.work').animate({'bottom':'-20px','left':'155px'},500);
 		$('.service').animate({'top':'-20px','left':'155px'},500);
 		$('.content').animate({'margin-left':'15px'},600);
-		$('.home').css('display','block');
+		$('.home').animate({'opacity':'1'},400);
+		$('.home').css('cursor','pointer');
 	});
 	
 	$('.service').click(function(){
@@ -33,7 +35,8 @@ $(function(){
 		$('.work').animate({'bottom':'-20px','left':'155px'},500);
 		$('.service').animate({'top':'-20px','left':'155px'},500);
 		$('.content').animate({'margin-left':'15px'},600);
-		$('.home').css('display','block');
+		$('.home').animate({'opacity':'1'},400);
+		$('.home').css('cursor','pointer');
 	});
 
 	$('.work').click(function(){
@@ -45,7 +48,8 @@ $(function(){
 		$('.work').animate({'bottom':'-20px','left':'155px'},500);
 		$('.service').animate({'top':'-20px','left':'155px'},500);
 		$('.content').animate({'margin-left':'15px'},600);
-		$('.home').css('display','block');
+		$('.home').animate({'opacity':'1'},400);
+		$('.home').css('cursor','pointer');
 	});
 
 	$('.home').click(function(){
@@ -55,9 +59,10 @@ $(function(){
 		$('.about-page').animate({'right':'-720px'},800,'cubic-bezier(.27,.82,.6,.42)');
 		
 		$('.content').animate({'margin-left':'250px'},600);
-		$('.work').animate({'left':'405px','bottom':'70px'},600);
-		$('.service').animate({'left':'405px','top':'70px'},600);
-		$('.home').css('display','none');
+		$('.work').animate({'left':'405px','bottom':'80px'},600);
+		$('.service').animate({'left':'405px','top':'80px'},600);
+		$('.home').css('cursor','auto');
+		$('.home').animate({'opacity':'0'},400);
 	});
 
 });

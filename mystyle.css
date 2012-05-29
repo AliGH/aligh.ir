@@ -139,7 +139,8 @@ div{
 	top:210px;
 	left:-18px;
 	background-image:url(images/back-button.png);
-	display:none;
+	opacity:0;
+	cursor:auto;
 }
 
 .content .about{
@@ -151,7 +152,7 @@ div{
 
 
 .content .contact{
-	bottom:80px;
+	bottom:72px;
 	left:5px;
 	background-image:url(images/menu-button-3.png);
 }
@@ -227,9 +228,9 @@ div{
 	width:100px;
 	display:block;
 	-webkit-transition:all 400ms cubic-bezier(.05,.92,.74,.4);
-	top:-20px;
+	top:-23px;
 	right:0;
-	left:-20px;
+	left:-22px;
 	bottom:0;border:2px #808080 dashed;
 }
 
@@ -247,7 +248,24 @@ div{
 
 .footer .copy-right{
 	min-height:inherit;
-	
+	margin-top:8px;
+}
+
+.footer .copy-right h4{
+	font-family:"Courier New", Courier, monospace;
+	color:#FFF;
+	font-size:10px;
+}
+
+.footer .copy-right a{
+	text-decoration:none;
+	color:#800;
+	-webkit-transition:color 1500ms;
+}
+
+.footer .copy-right a:hover{
+	text-decoration:underline;
+	color:#C00;
 }
 
 .footer .social{
