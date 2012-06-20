@@ -9,11 +9,13 @@ div{
 
 ::selection
 {
-background-color:#D3EF5B;
+	background-color:#D54500;
+	color:#3CFFFF;
 }
 ::-moz-selection
 {
-background-color:#D3EF5B;
+	background-color:#D54500;
+	color:#3CFFFF;
 }
 
 .container{
