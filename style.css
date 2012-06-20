@@ -7,6 +7,15 @@ div{
 	/*outline:1px red solid;*/
 }
 
+::selection
+{
+background-color:#D3EF5B;
+}
+::-moz-selection
+{
+background-color:#D3EF5B;
+}
+
 .container{
 	min-height:700px;
 	padding-top:10px;
@@ -69,6 +78,7 @@ div{
 .content-container .about-page{
 	background-image:url(images/contact-back.gif);
 	line-height:200%;
+	left:0
 }
 
 .about-page h1{
@@ -90,9 +100,17 @@ div{
 
 .about-page p{
 	text-align:center;
+
 }
 
+.about-page span{
+	
+}
 
+.link{
+	text-decoration:none;
+	color:#DDD;
+}
 
 .content-container .contact-page{
 	background-color: #313131;
