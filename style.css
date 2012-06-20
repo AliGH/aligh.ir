@@ -78,7 +78,6 @@ background-color:#D3EF5B;
 .content-container .about-page{
 	background-image:url(images/contact-back.gif);
 	line-height:200%;
-	left:0
 }
 
 .about-page h1{
@@ -104,13 +103,9 @@ background-color:#D3EF5B;
 	padding:30px;
 }
 
-.about-page span{
-	
-}
-
 .link{
 	text-decoration:none;
-	color:#DDD;
+	color:#CCC;
 }
 
 .content-container .contact-page{
@@ -345,7 +340,6 @@ background-color:#D3EF5B;
 }
 
 .footer-container{
-	min-height:48px;
 	outline-color:green;
 	background-image:url(images/background-footer.png);
 }
