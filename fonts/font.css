@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'snigletregular';
+    src: url('sniglet-webfont.eot');
+    src: url('sniglet-webfont.eot?#iefix') format('embedded-opentype'),
+         url('sniglet-webfont.woff') format('woff'),
+         url('sniglet-webfont.ttf') format('truetype'),
+         url('sniglet-webfont.svg#snigletregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'fredericka_the_greatregular';
+    src: url('frederickathegreat-regular-webfont.eot');
+    src: url('frederickathegreat-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('frederickathegreat-regular-webfont.woff') format('woff'),
+         url('frederickathegreat-regular-webfont.ttf') format('truetype'),
+         url('frederickathegreat-regular-webfont.svg#fredericka_the_greatregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}

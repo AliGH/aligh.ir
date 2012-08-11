@@ -42,14 +42,14 @@ div{
 
 .logo-text h1{
 	font-size: 48px; 
-	font-family:"Fredericka the Great", sans-serif;
+	font-family:"fredericka_the_greatregular", sans-serif;
 	font-variant:small-caps;
 	text-align:center;
 	color:#EEE;
 }
 
 .logo-text p{
-	font-family: 'Sniglet', cursive;
+	font-family: 'snigletregular', cursive;
 	text-align:center;
 	font-size:16px;
 	color:#777;
@@ -83,7 +83,7 @@ div{
 }
 
 .about-page h1{
-	font-family:"Fredericka the Great", sans-serif;
+	font-family:"fredericka_the_greatregular", sans-serif;
 	font-size:24px;
 	text-align:center;
 	margin-top:50px;
@@ -92,7 +92,7 @@ div{
 }
 
 .about-page h3{
-	font-family: 'Sniglet', cursive;
+	font-family: 'snigletregular', cursive;
 	font-size:17;
 	text-align:center;
 	padding-top:10px;
@@ -116,7 +116,7 @@ div{
 }
 
 .contact-page h1{
-	font-family:"Fredericka the Great", sans-serif;
+	font-family:"fredericka_the_greatregular", sans-serif;
 	font-size:24px;
 	color:#DDD;
 	text-align:center;
