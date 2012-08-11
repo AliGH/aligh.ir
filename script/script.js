@@ -1,10 +1,10 @@
 $(function(){
 	
 	$('.about').click(function(){
-		$('.about-page').animate({'right':'150px'},800,'cubic-bezier(.27,.82,.6,.42)');
-		$('.contact-page').animate({'right':'-720px'},800,'cubic-bezier(.27,.82,.6,.42)');
-		$('.service-page').animate({'right':'-720px'},800,'cubic-bezier(.27,.82,.6,.42)');
-		$('.work-page').animate({'right':'-720px'},800,'cubic-bezier(.27,.82,.6,.42)');
+		$('.about-page').animate({'right':'150px'},800,'easeInOut');
+		$('.contact-page').animate({'right':'-720px'},800,'easeInOut');
+		$('.service-page').animate({'right':'-720px'},800,'easeInOut');
+		$('.work-page').animate({'right':'-720px'},800,'easeInOut');
 		
 		$('.work').animate({'bottom':'-20px','left':'155px'},500);
 		$('.service').animate({'top':'-20px','left':'155px'},500);
@@ -14,10 +14,10 @@ $(function(){
 	});
 	
 		$('.contact').click(function(){
-		$('.contact-page').animate({'right':'150px'},800,'cubic-bezier(.27,.82,.6,.42)');
-		$('.about-page').animate({'right':'-720px'},800,'cubic-bezier(.27,.82,.6,.42)');
-		$('.service-page').animate({'right':'-720px'},800,'cubic-bezier(.27,.82,.6,.42)');
-		$('.work-page').animate({'right':'-720px'},800,'cubic-bezier(.27,.82,.6,.42)');
+		$('.contact-page').animate({'right':'150px'},800,'easeInOut');
+		$('.about-page').animate({'right':'-720px'},800,'easeInOut');
+		$('.service-page').animate({'right':'-720px'},800,'easeInOut');
+		$('.work-page').animate({'right':'-720px'},800,'easeInOut');
 		
 		$('.work').animate({'bottom':'-20px','left':'155px'},500);
 		$('.service').animate({'top':'-20px','left':'155px'},500);
@@ -27,10 +27,10 @@ $(function(){
 	});
 	
 	$('.service').click(function(){
-		$('.service-page').animate({'right':'150px'},800,'cubic-bezier(.27,.82,.6,.42)');
-		$('.contact-page').animate({'right':'-720px'},800,'cubic-bezier(.27,.82,.6,.42)');
-		$('.about-page').animate({'right':'-720px'},800,'cubic-bezier(.27,.82,.6,.42)');
-		$('.work-page').animate({'right':'-720px'},800,'cubic-bezier(.27,.82,.6,.42)');
+		$('.service-page').animate({'right':'150px'},800,'easeInOut');
+		$('.contact-page').animate({'right':'-720px'},800,'easeInOut');
+		$('.about-page').animate({'right':'-720px'},800,'easeInOut');
+		$('.work-page').animate({'right':'-720px'},800,'easeInOut');
 		
 		$('.work').animate({'bottom':'-20px','left':'155px'},500);
 		$('.service').animate({'top':'-20px','left':'155px'},500);
@@ -40,10 +40,10 @@ $(function(){
 	});
 
 	$('.work').click(function(){
-		$('.work-page').animate({'right':'150px'},800,'cubic-bezier(.27,.82,.6,.42)');
-		$('.contact-page').animate({'right':'-720px'},800,'cubic-bezier(.27,.82,.6,.42)');
-		$('.service-page').animate({'right':'-720px'},800,'cubic-bezier(.27,.82,.6,.42)');
-		$('.about-page').animate({'right':'-720px'},800,'cubic-bezier(.27,.82,.6,.42)');
+		$('.work-page').animate({'right':'150px'},800,'easeInOut');
+		$('.contact-page').animate({'right':'-720px'},800,'easeInOut');
+		$('.service-page').animate({'right':'-720px'},800,'easeInOut');
+		$('.about-page').animate({'right':'-720px'},800,'easeInOut');
 		
 		$('.work').animate({'bottom':'-20px','left':'155px'},500);
 		$('.service').animate({'top':'-20px','left':'155px'},500);
@@ -53,10 +53,10 @@ $(function(){
 	});
 
 	$('.home').click(function(){
-		$('.work-page').animate({'right':'-720px'},800,'cubic-bezier(.27,.82,.6,.42)');
-		$('.contact-page').animate({'right':'-720px'},800,'cubic-bezier(.27,.82,.6,.42)');
-		$('.service-page').animate({'right':'-720px'},800,'cubic-bezier(.27,.82,.6,.42)');
-		$('.about-page').animate({'right':'-720px'},800,'cubic-bezier(.27,.82,.6,.42)');
+		$('.work-page').animate({'right':'-720px'},800,'easeInOut');
+		$('.contact-page').animate({'right':'-720px'},800,'easeInOut');
+		$('.service-page').animate({'right':'-720px'},800,'easeInOut');
+		$('.about-page').animate({'right':'-720px'},800,'easeInOut');
 		
 		$('.content').animate({'margin-left':'250px'},600);
 		$('.work').animate({'left':'405px','bottom':'80px'},600);

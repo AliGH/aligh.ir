@@ -229,15 +229,15 @@ div{
 
 .content > div:hover{
 	transform:scale(.65,.65);
-	transition:all 250ms cubic-bezier(.05,.92,.74,.4);
+	transition:all 250ms easeInOut;
 	-webkit-transform:scale(.65,.65);
-	-webkit-transition:all 250ms cubic-bezier(.05,.92,.74,.4);
+	-webkit-transition:all 250ms easeInOut;
 	-moz-transform:scale(.65,.65);
-	-moz-transition:all 250ms cubic-bezier(.05,.92,.74,.4);
+	-moz-transition:all 250ms easeInOut;
 	-o-transform:scale(.65,.65);
-	-o-transition:all 250ms cubic-bezier(.05,.92,.74,.4);
+	-o-transition:all 250ms easeInOut;
 	-ms-transform:scale(.65,.65);
-	-ms-transition:all 250ms cubic-bezier(.05,.92,.74,.4);
+	-ms-transition:all 250ms easeInOut;
 }
 
 .content .home{
